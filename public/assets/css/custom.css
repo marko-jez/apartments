@@ -1,0 +1,14 @@
+/* Veći logo na desktopu */
+.header-area .logo img {
+    max-height: 120px; /* povećaj po želji */
+    width: auto;
+}
+
+/* Veći logo na mobitelu */
+@media (max-width: 991px) {
+    .header-area .logo img {
+        max-height: 85px; /* povećaj po želji */
+    }
+}
+
+body { outline: 5px solid red; }
