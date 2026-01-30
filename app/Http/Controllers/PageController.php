@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Apartment;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -14,8 +15,9 @@ class PageController extends Controller
         return view('page.about');
     }
 
-    public function apartments() {
-        return view('page.apartments');
+    public function apartmentss() {
+        $apartments = Apartment::where('is_active', true)->get();
+        return view('page.apartments', compact('apartments'));
     }
 
     public function blog() {
