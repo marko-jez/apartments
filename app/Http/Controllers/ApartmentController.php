@@ -9,7 +9,7 @@ class ApartmentController extends Controller
 {
     public function show($id)
     {
-        $apartment = Apartment::findOrFail($id);
+        $apartment = Apartment::with('coverImage')->findOrFail($id);
 
         return view('apartments.show', compact('apartment'));
     }

@@ -42,17 +42,20 @@
                         <!-- Single Room -->
                         <div class="single-room mb-50">
                             <div class="room-img">
-                               <a href="{{ route('show', $apartment->id) }}"><img src="assets/img/rooms/room1.jpg" alt=""></a>
+                               <a href="{{ route('show', $apartment->id) }}"><img src="{{ asset($apartment->coverImage->path) }}" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="{{ route('show', $apartment->id) }}">Apartman 1</a></h3>
+                                <h3><a href="{{ route('show', $apartment->id) }}">{{ $apartment->title }}</a></h3>
                                 <div class="per-night">
-                                    <span><u>€</u>50 <span>/ noćenje</span></span>
+                                    <span><u>€</u>{{ $apartment->price_per_night }} <span>/ noćenje</span></span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
+
+                    @endforeach
+
+                    {{-- <div class="col-xl-4 col-lg-6 col-md-6">
                         <!-- Single Room -->
                         <div class="single-room mb-50">
                             <div class="room-img">
@@ -122,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                    @endforeach
+                
                 </div>
                 <div class="row justify-content-center">
                     <div class="room-btn pt-70 pb-70">
@@ -131,7 +134,7 @@
                 </div>
             </div>
 
-        </section>
+        </section> --}}
         <!-- Room End -->
 
         

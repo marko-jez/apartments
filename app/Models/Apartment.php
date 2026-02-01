@@ -29,7 +29,7 @@ class Apartment extends Model
 
     public function coverImage()
     {
-        return $this->hasOne(ApartmentImage::class, 'apartment_id')->where('is_cover, true');
+        return $this->hasOne(ApartmentImage::class, 'apartment_id')->where('is_cover', 1);
     }
 
 
