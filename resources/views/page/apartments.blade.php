@@ -28,9 +28,9 @@
                     <div class="col-xl-8">
                         <!--font-back-tittle  -->
                         <div class="font-back-tittle mb-45">
-                           {{--  <div class="archivment-front">
-                                <h3>Naši apartmani</h3>
-                            </div> --}}
+                            <div class="archivment-front">
+                                <h3>Apartmani</h3>
+                            </div>
                             <h3 class="archivment-back">Apartmani</h3>
                         </div>
                     </div>
@@ -55,89 +55,6 @@
 
                     @endforeach
 
-                    {{-- <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
-                        <div class="single-room mb-50">
-                            <div class="room-img">
-                               <a href="rooms.html"><img src="assets/img/rooms/room2.jpg" alt=""></a>
-                            </div>
-                            <div class="room-caption">
-                                <h3><a href="rooms.html">Classic Double Bed</a></h3>
-                                <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
-                        <div class="single-room mb-50">
-                            <div class="room-img">
-                               <a href="rooms.html"> <img src="assets/img/rooms/room3.jpg" alt=""></a>
-                            </div>
-                            <div class="room-caption">
-                                <h3><a href="rooms.html">Classic Double Bed</a></h3>
-                                <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
-                        <div class="single-room mb-50">
-                            <div class="room-img">
-                                <a href="rooms.html"><img src="assets/img/rooms/room4.jpg" alt=""></a>
-                            </div>
-                            <div class="room-caption">
-                                <h3><a href="rooms.html">Classic Double Bed</a></h3>
-                                <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
-                        <div class="single-room mb-50">
-                            <div class="room-img">
-                                <a href="rooms.html"><img src="assets/img/rooms/room5.jpg" alt=""></a>
-                            </div>
-                            <div class="room-caption">
-                                <h3><a href="rooms.html">Classic Double Bed</a></h3>
-                                <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
-                        <div class="single-room mb-50">
-                            <div class="room-img">
-                               <a href="rooms.html"> <img src="assets/img/rooms/room6.jpg" alt=""></a>
-                            </div>
-                            <div class="room-caption">
-                                <h3><a href="rooms.html">Classic Double Bed</a></h3>
-                                <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                
-                </div>
-                <div class="row justify-content-center">
-                    <div class="room-btn pt-70 pb-70">
-                        <a href="#" class="btn view-btn1">Vidi više  <i class="ti-angle-right"></i> </a>
-                    </div>
-                </div>
-            </div>
-
-        </section> --}}
-        <!-- Room End -->
-
-        
 
         <!-- Gallery img Start-->
         <div class="gallery-area fix">
