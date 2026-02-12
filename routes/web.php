@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ApartmentController;
+use App\Http\Controllers\GeneralInquiryController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,3 +19,5 @@ Route::get('contact', [PageController::class, 'contact'])->name('contact');
 Route::get('elements', [PageController::class, 'elements'])->name('elements');
 
 Route::get('show/{id}', [ApartmentController::class, 'show'])->name('show');
+
+Route::post('inquiry', [GeneralInquiryController::class, 'store'])->name('inquiry.store');
