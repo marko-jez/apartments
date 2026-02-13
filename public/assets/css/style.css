@@ -4980,14 +4980,16 @@ h6 {
     background: #f9f9ff;
     padding-left: 45px;
     padding-right: 40px;
-    width: 100%; }
+    width: 100%; 
+  color: #000 !important;}
     .form-select .nice-select .list {
       margin-top: 0;
       border: none;
       border-radius: 0px;
       box-shadow: none;
       width: 100%;
-      padding: 10px 0 10px 0px; }
+      padding: 10px 0 10px 0px; 
+    color: #000 !important;}
       .form-select .nice-select .list .option {
         font-weight: 300;
         -webkit-transition: all 0.3s ease 0s;
@@ -4997,7 +4999,8 @@ h6 {
         line-height: 28px;
         min-height: 28px;
         font-size: 12px;
-        padding-left: 45px; }
+        padding-left: 45px; 
+      color: #000 !important;}
         .form-select .nice-select .list .option.selected {
           color: #222222;
           background: transparent; }
@@ -5025,3 +5028,4 @@ h6 {
 
 .switch-wrap {
   margin-bottom: 10px; }
+

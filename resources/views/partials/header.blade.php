@@ -32,7 +32,7 @@
                         <div class="col-xl-2 col-lg-3">
                             <!-- header-btn -->
                             <div class="header-btn">
-                                <a href="#" class="btn btn1 d-none d-lg-block">Rezeviraj sada</a>
+                                <a href="{{ route('inquiry.create') }}" class="btn btn1 d-none d-lg-block">Rezeviraj sada</a>
                             </div>
                         </div>
                         <!-- Mobile Menu -->

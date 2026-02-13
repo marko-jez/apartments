@@ -16,12 +16,17 @@ class GeneralInquiryController extends Controller
         $to = config('mail.reservations_to');
 
         if(!$to) {
-            abort(500, 'Nije postavljen RESERVATIONS_TO u .env');
+            abort(500, 'Nije postavljen RESERVATIONS_TO_EMAIL u .env');
         }
 
         Mail::to($to)->send(new GeneralInquiryMail($data));
 
-        return back()->with('Success', 'Upit je poslab, javiti ćemo Vam se uskoro!');
+        return back()->with('success', 'Upit je poslan, javiti ćemo Vam se uskoro!');
 
+    }
+
+    public function create()
+    {
+        return view('inquiry.create');
     }
 }

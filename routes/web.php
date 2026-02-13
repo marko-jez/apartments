@@ -20,4 +20,5 @@ Route::get('elements', [PageController::class, 'elements'])->name('elements');
 
 Route::get('show/{id}', [ApartmentController::class, 'show'])->name('show');
 
+Route::get('inquiry', [GeneralInquiryController::class, 'create'])->name('inquiry.create');
 Route::post('inquiry', [GeneralInquiryController::class, 'store'])->name('inquiry.store');
