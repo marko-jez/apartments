@@ -27,6 +27,37 @@
    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
    <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    {{-- <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            GLightbox({ selector: '.apartment-lightbox' });
+        });
+    </script> --}}
+
+    <script>
+document.addEventListener('DOMContentLoaded', function () {
+  GLightbox({ selector: '.apartment-lightbox' });
+
+  new Swiper('.apartment-swiper', {
+    slidesPerView: 6,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: '.apartment-swiper-next',
+      prevEl: '.apartment-swiper-prev',
+    },
+    breakpoints: {
+      0:   { slidesPerView: 2 },
+      576: { slidesPerView: 3 },
+      768: { slidesPerView: 4 },
+      992: { slidesPerView: 6 },
+    },
+  });
+});
+</script>
 
 </head>
 <body>

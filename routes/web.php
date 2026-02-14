@@ -18,7 +18,7 @@ Route::get('single_blog', [PageController::class, 'single_blog'])->name('single_
 Route::get('contact', [PageController::class, 'contact'])->name('contact');
 Route::get('elements', [PageController::class, 'elements'])->name('elements');
 
-Route::get('show/{id}', [ApartmentController::class, 'show'])->name('show');
+Route::get('apartments/{apartment:slug}', [ApartmentController::class, 'show'])->name('apartments.show');
 
 Route::get('inquiry', [GeneralInquiryController::class, 'create'])->name('inquiry.create');
 Route::post('inquiry', [GeneralInquiryController::class, 'store'])->name('inquiry.store');

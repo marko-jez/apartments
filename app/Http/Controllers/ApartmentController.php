@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 
 class ApartmentController extends Controller
 {
-    public function show($id)
+    public function show(Apartment $apartment)
     {
-        $apartment = Apartment::with('coverImage')->findOrFail($id);
+         $apartment->load(['images' => fn($q) => $q->orderBy('sort_order'), 'coverImage']);
 
         return view('apartments.show', compact('apartment'));
     }

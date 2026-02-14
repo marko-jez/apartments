@@ -66,17 +66,4 @@ class GeneralInquiryMail extends Mailable
         return [];
     }
 
-    public function build()
-    {
-        $subject = sprintf(
-            'Apartmani upit | %s | %d odraslih%s',
-            $this->data['full_name'],
-            $this->data['adults'],
-            isset($this->data['children']) ? ' + ' . (int)$this->data['children'] . ' djece' : ''
-        );
-
-        return $this->subject($subject)
-        ->replyTo($this->data['email'])
-        ->markdown('emails.general_inquiry');
-    }
 }
