@@ -29,10 +29,10 @@ class GeneralInquiryMail extends Mailable
     {
 
         $subject = sprintf(
-            'Opći upit | %s | %d odraslih%s',
+            'Upit - apartmani | %s | %d odraslih%s',
             $this->data['full_name'],
             $this->data['adults'],
-            isset($this->data['children']) ? ' + ' . (int)$this->data['children'] . 'djece' : ''
+            isset($this->data['children']) ? ' + ' . (int)$this->data['children'] . ' djece' : ''
         );
 
         return new Envelope(

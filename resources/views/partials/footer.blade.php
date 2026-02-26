@@ -9,10 +9,12 @@
                            <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
                          </div>
                          <div class="footer-social footer-social2">
-                             <a href="#"><i class="fab fa-facebook-f"></i></a>
-                             <a href="#"><i class="fab fa-twitter"></i></a>
-                             <a href="#"><i class="fas fa-globe"></i></a>
-                             <a href="#"><i class="fab fa-behance"></i></a>
+                             <a href="#" class="booking-icon">
+                                <span class="booking-b">F</span>   
+                             </a>
+                             <a href="#" class="booking-icon">
+                                <span class="booking-b">B</span>   
+                             </a>
                          </div>
                          <div class="footer-pera">
                               <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -26,10 +28,10 @@
                            <div class="footer-tittle">
                                <h4>Brzi linkovi</h4>
                                <ul>
-                                   <li><a href="#">About Mariana</a></li>
-                                   <li><a href="#">Our Best Rooms</a></li>
-                                   <li><a href="#">Our Photo Gellary</a></li>
-                                   <li><a href="#">Pool Service</a></li>
+                                   <li><a href="#">O apartmanima</a></li>
+                                   <li><a href="#">Naše sobe</a></li>
+                                   <li><a href="#">Galerija svih soba</a></li>
+                                   <li><a href="#">Kontakt</a></li>
                                </ul>
                            </div>
                        </div>
@@ -37,11 +39,11 @@
                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
                        <div class="single-footer-caption mb-30">
                            <div class="footer-tittle">
-                               <h4>Reservations</h4>
+                               <h4>Rezervacije</h4>
                                <ul>
-                                   <li><a href="#">Tel: 345 5667 889</a></li>
-                                   <li><a href="#">Skype: Marianabooking</a></li>
-                                   <li><a href="#">reservations@hotelriver.com</a></li>
+                                   <li><a href="#">Tel: +385 883 0987</a></li>
+                                   <li><a href="#">Facebook: Apartmani Blaženka</a></li>
+                                   <li><a href="#">kovacic.milka@gmail.com</a></li>
                                </ul>
                            </div>
                        </div>
@@ -49,12 +51,12 @@
                    <div class="col-xl-3 col-lg-3 col-md-4  col-sm-5">
                        <div class="single-footer-caption mb-30">
                            <div class="footer-tittle">
-                               <h4>Our Location</h4>
+                               <h4>Naša lokacija</h4>
                                <ul>
-                                   <li><a href="#">198 West 21th Street,</a></li>
-                                   <li><a href="#">Suite 721 New York NY 10016</a></li>
+                                   <li><a href="#">Lokva Rogoznica,</a></li>
+                                   <li><a href="#">Ivašnjak III 20, 21310</a></li>
                                </ul>
-                               <!-- Form -->
+                               {{-- <!-- Form -->
                                 <div class="footer-form" >
                                     <div id="mc_embed_signup">
                                         <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
@@ -69,7 +71,7 @@
                                             <div class="mt-10 info"></div>
                                         </form>
                                     </div>
-                                </div>
+                                </div> --}}
                            </div>
                        </div>
                    </div>

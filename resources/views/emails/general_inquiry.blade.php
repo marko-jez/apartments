@@ -22,6 +22,4 @@
 {{ $data['note'] }}
 @endif
 
-Hvala,<br>
-{{ config('app.name') }}
-</x-mail::message>
+Hvala

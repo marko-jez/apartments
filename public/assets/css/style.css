@@ -5062,3 +5062,20 @@ h6 {
 
 .apartment-swiper-prev{ left: 0; }
 .apartment-swiper-next{ right: 0; }
+
+.booking-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    background: #f3f3f3;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.booking-b {
+    font-weight: 700;
+    font-size: 20px;
+    color: #6f7a87; /* sivo kao na tvojoj slici */
+}
