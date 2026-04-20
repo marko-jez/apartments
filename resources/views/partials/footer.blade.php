@@ -9,10 +9,10 @@
                            <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
                          </div>
                          <div class="footer-social footer-social2">
-                             <a href="#" class="booking-icon">
+                             <a href="https://web.facebook.com/kovacic.apartmani?locale=fo_FO" target="_blank" class="booking-icon">
                                 <span class="booking-b">F</span>   
                              </a>
-                             <a href="#" class="booking-icon">
+                             <a href="https://www.booking.com/hotel/hr/apartments-blazenka-3546.hr.html" target="_blank" class="booking-icon">
                                 <span class="booking-b">B</span>   
                              </a>
                          </div>
@@ -42,7 +42,7 @@
                                <h4>Rezervacije</h4>
                                <ul>
                                    <li><a href="#">Tel: +385 883 0987</a></li>
-                                   <li><a href="#">Facebook: Apartmani Blaženka</a></li>
+                                   <li><a href="https://web.facebook.com/kovacic.apartmani?locale=fo_FO" target="_blank">Facebook: Apartmani Blaženka</a></li>
                                    <li><a href="#">kovacic.milka@gmail.com</a></li>
                                </ul>
                            </div>

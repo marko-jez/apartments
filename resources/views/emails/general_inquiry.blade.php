@@ -22,4 +22,4 @@
 {{ $data['note'] }}
 @endif
 
-Hvala
+</x-mail::message>

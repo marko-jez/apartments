@@ -44,7 +44,7 @@
                 <a class="apartment-lightbox"
                 href="{{ asset($images[$coverIndex]->path) }}"
                 data-gallery="apartment-{{ $apartment->id }}"
-                data-title="{{ $images[$coverIndex]->alt ?? $apartment->title }}">
+                data-title="">
                     <img src="{{ asset($images[$coverIndex]->path) }}"
                         alt="{{ $images[$coverIndex]->alt ?? $apartment->title }}"
                         style="width:100%; border-radius:12px; object-fit:cover; max-height:420px;">
@@ -68,7 +68,7 @@
                                                 <a class="apartment-lightbox"
                                                     href="{{ asset($img->path) }}"
                                                     data-gallery="apartment-{{ $apartment->id }}"
-                                                    data-title="{{ $img->alt ?? 'Fotografija' }}">
+                                                    >
                                                         <img src="{{ asset($img->path) }}"
                                                             alt="{{ $img->alt ?? 'Fotografija' }}"
                                                             class="apartment-thumb">
